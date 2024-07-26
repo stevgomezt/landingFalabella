@@ -1,0 +1,62 @@
+.container-login-form {
+    max-width: 400px;
+    margin-top: 50px;
+    /* Añade margen automático horizontal para centrar */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    /* Alinea el contenido al centro */
+}
+
+.form-title-login-form {
+    margin-bottom: 30px;
+}
+
+.input-group-login-form {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.input-group-login-form i {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #999;
+}
+
+.form-control {
+    padding-left: 35px;
+}
+
+.btn {
+    width: 100%;
+}
+
+body {
+    background: linear-gradient(to bottom right, #d3d3d3, #808080);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-login-form {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.input-group-login-form {
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+.input-group-login-form i {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #999;
+}
+.input-group-login-form input {
+    padding-left: 2.5rem;
+}
