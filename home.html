@@ -52,7 +52,7 @@
 <body>
 
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top d-flex align-items-center">
+  <header id="header" class="fixed-top d-flex align-items-center" style="background-color: azure;">
     <div class="container d-flex align-items-center justify-content-between">
       <div class="logo">
         <h1><img src="/assets/img/logos/Logo emergia.png" alt=""></h1>
@@ -61,11 +61,11 @@
       <nav id="navbar" class="navbar">
         <ul class="mx-3">
           <!-- <li><a class="nav-link scrollto active" href="#hero">Inicio</a></li> -->
-          <li><a class="nav-link scrollto" href="#team">Equipo</a></li>
-          <li><a class="nav-link scrollto" href="#more-services">Nuestra Experiencia</a></li>
-          <li><a class="nav-link scrollto" href="#services">Journey Analítico</a></li>
+          <li><a class="nav-link scrollto btn-header" href="#team">Equipo</a></li>
+          <li><a class="nav-link scrollto btn-header" href="#more-services">Nuestra Experiencia</a></li>
+          <li><a class="nav-link scrollto btn-header" href="#services">Journey Analítico</a></li>
+          <li><a class="nav-link scrollto btn-header" href="#" id="logout-button">Cerrar Sesión</a></li>
         </ul>
-        <button class="btn btn-primary" id="logout-button">Cerrar Sesión</button>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav>
       <!-- .navbar -->
@@ -86,7 +86,7 @@
   <main id="main">
 
     <!-- Team Start -->
-    <div class="container-fluid">
+    <div class="container-fluid" style="background-color: azure;padding: 4% 0 4% 0;">
       <div class="section-title" data-aos="fade-up">
         <h2>Nuestro Equipo</h2>
       </div>
@@ -419,7 +419,7 @@
     <!-- End More Services Section -->
 
     <!-- ======= Services Section Journey Analitico======= -->
-    <section id="services" class="services">
+    <section id="services" class="services" style="background-color: azure;padding: 4% 0 4% 0;">
       <div class="container">
         <div class="section-title" data-aos="fade-up">
           <h2>Journey Analítico</h2>
@@ -485,7 +485,8 @@
                 data-aos-delay="100">
                 <img src="assets/img/journey/JA-5.svg" alt="">
                 <div class="icon"></div>
-                <h4 class="title"><a href="#" onclick="event.preventDefault()">MACC</a></h4>
+                <h4 class="title"><a href="#" onclick="event.preventDefault()">Modelo Analítico de Contactabilidad</a>
+                </h4>
                 <p class="description"></p>
               </div>
             </button>
@@ -525,7 +526,7 @@
                 data-aos-delay="100">
                 <img src="assets/img/journey/JA-6.svg" alt="">
                 <div class="icon"></div>
-                <h4 class="title"><a href="#" onclick="event.preventDefault()">Lealtad</a></h4>
+                <h4 class="title"><a href="#" onclick="event.preventDefault()">Modelo de Lealtad</a></h4>
                 <p class="description"></p>
               </div>
             </button>
@@ -537,7 +538,7 @@
                 data-aos-delay="100">
                 <img src="assets/img/journey/JA-9.svg" alt="">
                 <div class="icon"></div>
-                <h4 class="title"><a href="#" onclick="event.preventDefault()">IA</a></h4>
+                <h4 class="title"><a href="#" onclick="event.preventDefault()">IA Generativa</a></h4>
                 <p class="description">Modelos Fundacionales Inteligencia Artificial Generativa, LLM's chatbots.</p>
               </div>
             </button>
@@ -592,10 +593,8 @@
           <img src="/assets/img/logos/logodoblexs.png" alt="" class="logo-xs">
           <img src="/assets/img/logos/banco-falabella.svg" alt="" class="logo-xs">
         </div>
-
       </div>
     </div>
-  </div>
   </div>
 
   <!-- myModalPAC -->
@@ -619,7 +618,6 @@
       </div>
     </div>
   </div>
-  </div>
 
   <!-- myModalPerfilCli -->
   <div class="modal fade" id="myModalPerfilCli" tabindex="-1" role="dialog" aria-labelledby="myModalPerfilCliLabel"
@@ -642,10 +640,8 @@
           <img src="/assets/img/logos/logodoblexs.png" alt="" class="logo-xs">
           <img src="/assets/img/logos/banco-falabella.svg" alt="" class="logo-xs">
         </div>
-
       </div>
     </div>
-  </div>
   </div>
 
   <!-- myModalDataQuality -->
@@ -674,10 +670,8 @@
           <img src="/assets/img/logos/logodoblexs.png" alt="" class="logo-xs">
           <img src="/assets/img/logos/banco-falabella.svg" alt="" class="logo-xs">
         </div>
-
       </div>
     </div>
-  </div>
   </div>
 
   <!-- myModalMacc" -->
@@ -686,7 +680,7 @@
     <div class="modal-dialog modal-dialog-centered modal-lg-custom-video" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="myModalMACLabel">MACC</h5>
+          <h5 class="modal-title" id="myModalMACLabel">Modelo Analítico de Contactabilidad</h5>
         </div>
         <div class="modal-body text-center">
           <div class="d-flex justify-content-center align-items-center">
@@ -701,10 +695,8 @@
           <img src="/assets/img/logos/logodoblexs.png" alt="" class="logo-xs">
           <img src="/assets/img/logos/banco-falabella.svg" alt="" class="logo-xs">
         </div>
-
       </div>
     </div>
-  </div>
   </div>
 
   <!-- myModalLealtad -->
@@ -714,7 +706,7 @@
       <div class="modal-content">
         <div class="modal-header">
           <div class="d-flex w-100 justify-content-between">
-            <h5 class="modal-title" id="myModalLealtadLabel">Lealtad</h5>
+            <h5 class="modal-title" id="myModalLealtadLabel">Modelo de Lealtad</h5>
             <a href="ModeloCX_v1.pdf" class="animated-link" target="_blank"><i class="fas fa-hand-point-right"></i>
               &nbsp;&nbsp;¡ Haz Clic aquí para Descargar PDF !</a>
           </div>
@@ -732,10 +724,8 @@
           <img src="/assets/img/logos/logodoblexs.png" alt="" class="logo-xs">
           <img src="/assets/img/logos/banco-falabella.svg" alt="" class="logo-xs">
         </div>
-
       </div>
     </div>
-  </div>
   </div>
 
   <!-- myModalSmartC -->
@@ -759,10 +749,8 @@
           <img src="/assets/img/logos/logodoblexs.png" alt="" class="logo-xs">
           <img src="/assets/img/logos/banco-falabella.svg" alt="" class="logo-xs">
         </div>
-
       </div>
     </div>
-  </div>
   </div>
 
   <!-- myModalModeloPre -->
@@ -786,10 +774,8 @@
           <img src="/assets/img/logos/logodoblexs.png" alt="" class="logo-xs">
           <img src="/assets/img/logos/banco-falabella.svg" alt="" class="logo-xs">
         </div>
-
       </div>
     </div>
-  </div>
   </div>
 
   <!-- myModalIA -->
@@ -798,7 +784,7 @@
     <div class="modal-dialog modal-dialog-centered modal-lg-custom" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="myModalIALabel">IA</h5>
+          <h5 class="modal-title" id="myModalIALabel">IA Generativa</h5>
           <h5 class="modal-title"><a target="_blank" href="https://api.whatsapp.com/send?phone=573136189647">Link a
               Chatbot</a></h5>
         </div>
@@ -815,10 +801,8 @@
           <img src="/assets/img/logos/logodoblexs.png" alt="" class="logo-xs">
           <img src="/assets/img/logos/banco-falabella.svg" alt="" class="logo-xs">
         </div>
-
       </div>
     </div>
-  </div>
   </div>
   <!-- End Modales Analitica -->
 
