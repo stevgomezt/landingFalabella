@@ -5,11 +5,7 @@ var galleryImgInvestigacionMer = document.getElementById('galleryImgInvestigacio
 var imageContainerInvestigacionMer = document.getElementById('imageContainerInvestigacionMer');
 var imagesInvestigacionMer = [
   "/assets/img/slides/invesMer1.jpg",
-  "/assets/img/slides/invesMer2.jpg",
-  "/assets/img/slides/invesMer3.jpg",
-  "/assets/img/slides/invesMer4.jpg",
-  "/assets/img/slides/invesMer5.jpg",
-  "/assets/img/slides/invesMer6.jpg"
+  "/assets/img/slides/invesMer2.jpg"
 ];
 var currentIndexInvestigacionMer = 0;
 

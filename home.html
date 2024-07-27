@@ -86,7 +86,7 @@
   <main id="main">
 
     <!-- Team Start -->
-    <div class="container-fluid" style="background-color: azure;padding: 4% 0 4% 0;">
+    <div class="container-fluid" id="team" style="background-color: azure;padding: 4% 0 4% 0;">
       <div class="section-title" data-aos="fade-up">
         <h2>Nuestro Equipo</h2>
       </div>
@@ -487,7 +487,7 @@
                 <div class="icon"></div>
                 <h4 class="title"><a href="#" onclick="event.preventDefault()">Modelo Analítico de Contactabilidad</a>
                 </h4>
-                <p class="description"></p>
+                <p class="description">Marcación inteligente para incrementar el contacto</p>
               </div>
             </button>
           </div>
@@ -527,7 +527,8 @@
                 <img src="assets/img/journey/JA-6.svg" alt="">
                 <div class="icon"></div>
                 <h4 class="title"><a href="#" onclick="event.preventDefault()">Modelo de Lealtad</a></h4>
-                <p class="description"></p>
+                <p class="description">Sistema inteligente para aumentar permanencia del cliente e incrementar su
+                  facturación</p>
               </div>
             </button>
           </div>
@@ -644,32 +645,24 @@
     </div>
   </div>
 
-  <!-- myModalDataQuality -->
+  <!-- myModalDataDataQuality -->
   <div class="modal fade" id="myModalDataQuality" tabindex="-1" role="dialog" aria-labelledby="myModalDataQualityLabel"
     aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-lg-custom" role="document">
+    <div class="modal-dialog modal-dialog-centered modal-lg-custom-video" role="document">
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title" id="myModalDataQualityLabel">DataQuality</h5>
-          <a href="mapa.html" target="_blank" class="animated-link"><i class="fas fa-hand-point-right"></i>
-            &nbsp;&nbsp;¡ Haz Clic aquí para Abrir el Mapa !</a>
         </div>
         <div class="modal-body text-center">
-          <div class="d-flex justify-content-center align-items-center">
-            <!-- <button class="btn btn-secondary navButton" id="prevBtnMapas"> Anterior</button> -->
-            <div id="imageContainerDataQuality" class="image-container mx-2">
-              <a href="mapa.html" target="_blank">
-                <img id="galleryImgDataQuality" src="assets/img/slides/modelosAten.jpg" class="gallery-img"
-                  alt="Imagen">
-              </a>
-            </div>
-            <!-- <button class="btn btn-secondary navButton" id="nextBtnMapas">Siguiente </button> -->
-          </div>
+          <video id="videoDataQuality" width="100%" height="100%" controls autoplay muted>
+            <source src="assets/img/slides/videoCaja3.mp4" type="video/mp4">
+          </video>
         </div>
         <div class="modal-footer center-images">
           <img src="/assets/img/logos/logodoblexs.png" alt="" class="logo-xs">
           <img src="/assets/img/logos/banco-falabella.svg" alt="" class="logo-xs">
         </div>
+
       </div>
     </div>
   </div>
@@ -680,21 +673,18 @@
     <div class="modal-dialog modal-dialog-centered modal-lg-custom-video" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="myModalMACLabel">Modelo Analítico de Contactabilidad</h5>
+          <h5 class="modal-title" id="myModalMaccLabel">Modelo Analitico de Contactabilidad</h5>
         </div>
         <div class="modal-body text-center">
-          <div class="d-flex justify-content-center align-items-center">
-            <button class="btn btn-secondary navButton" id="prevBtnMacc"> Anterior</button>
-            <div id="imageContainerMacc" class="image-container mx-2">
-              <img id="galleryImgMacc" src="/assets/img/slides/analiticaDesc1.jpg" class="gallery-img" alt="Imagen">
-            </div>
-            <button class="btn btn-secondary navButton" id="nextBtnMacc">Siguiente </button>
-          </div>
+          <video id="videoMacc" width="100%" height="100%" controls autoplay muted>
+            <source src="assets/img/slides/videoCaja5.mp4" type="video/mp4">
+          </video>
         </div>
         <div class="modal-footer center-images">
           <img src="/assets/img/logos/logodoblexs.png" alt="" class="logo-xs">
           <img src="/assets/img/logos/banco-falabella.svg" alt="" class="logo-xs">
         </div>
+
       </div>
     </div>
   </div>
@@ -707,15 +697,15 @@
         <div class="modal-header">
           <div class="d-flex w-100 justify-content-between">
             <h5 class="modal-title" id="myModalLealtadLabel">Modelo de Lealtad</h5>
-            <a href="ModeloCX_v1.pdf" class="animated-link" target="_blank"><i class="fas fa-hand-point-right"></i>
-              &nbsp;&nbsp;¡ Haz Clic aquí para Descargar PDF !</a>
+            <!-- <a href="ModeloCX_v1.pdf" class="animated-link" target="_blank"><i class="fas fa-hand-point-right"></i> -->
+            <!-- &nbsp;&nbsp;¡ Haz Clic aquí para Descargar PDF !</a> -->
           </div>
         </div>
         <div class="modal-body text-center">
           <div class="d-flex justify-content-center align-items-center">
             <button class="btn btn-secondary navButton" id="prevBtnLealtad"> Anterior</button>
             <div id="imageContainerLealtad" class="image-container mx-2">
-              <img id="galleryImgLealtad" src="assets/img/slides/modeloCX1.png" class="gallery-img" alt="Imagen">
+              <img id="galleryImgLealtad" src="assets/img/slides/modeloLeal1.jpg" class="gallery-img" alt="Imagen">
             </div>
             <button class="btn btn-secondary navButton" id="nextBtnLealtad">Siguiente </button>
           </div>
@@ -759,13 +749,17 @@
     <div class="modal-dialog modal-dialog-centered modal-lg-custom" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="myModalModeloPreLabel">Modelos de Analítica Predictiva</h5>
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="modal-title" id="myModalModeloPreLabel">Modelos de Analítica Predictiva</h5>
+            <a href="/mapa.html" class="animated-link" target="_blank"><i class="fas fa-hand-point-right"></i>
+              &nbsp;&nbsp;¡ Haz Clic aquí para Abrir Mapa !</a>
+          </div>
         </div>
         <div class="modal-body text-center">
           <div class="d-flex justify-content-center align-items-center">
             <button class="btn btn-secondary navButton" id="prevBtnModeloPre"> Anterior</button>
             <div id="imageContainerModeloPre" class="image-container mx-2">
-              <img id="galleryImgModeloPre" src="/assets/img/slides/modelosPre1.jpg" class="gallery-img" alt="Imagen">
+              <img id="galleryImgModeloPre" src="assets/img/slides/modelosPre1.jpg" class="gallery-img" alt="Imagen">
             </div>
             <button class="btn btn-secondary navButton" id="nextBtnModeloPre">Siguiente </button>
           </div>

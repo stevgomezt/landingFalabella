@@ -3,9 +3,12 @@ var modalDialogLealtad = document.querySelector('.modal-dialog');
 var galleryImgLealtad = document.getElementById('galleryImgLealtad');
 var imageContainerLealtad = document.getElementById('imageContainerLealtad');
 var imagesLealtad = [
-  "/assets/img/slides/modelocx1.png",
-  "/assets/img/slides/modelocx2.png",
-  "/assets/img/slides/modelocx3.png"
+  "/assets/img/slides/modeloLeal1.jpg",
+  "/assets/img/slides/modeloLeal2.jpg",
+  "/assets/img/slides/modeloLeal3.jpg",
+  "/assets/img/slides/modeloLeal4.jpg",
+  "/assets/img/slides/modeloLeal5.jpg",
+  "/assets/img/slides/modeloLeal6.jpg"
 ];
 var currentIndex = 0;
 
