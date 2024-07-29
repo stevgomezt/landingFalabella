@@ -4,11 +4,7 @@ var galleryImgPerfilCli = document.getElementById('galleryImgPerfilCli');
 var imageContainerPerfilCli = document.getElementById('imageContainerPerfilCli');
 var imagesPerfilCli = [
   "/assets/img/slides/perfilCli1.jpg",
-  "/assets/img/slides/perfilCli2.jpg",
-  "/assets/img/slides/perfilCli3.jpg",
-  "/assets/img/slides/perfilCli4.jpg",
-  "/assets/img/slides/perfilCli5.jpg",
-  "/assets/img/slides/perfilCli6.jpg"
+  "/assets/img/slides/perfilCli2.jpg"
 ];
 var currentIndexPerfilCli = 0;
 
